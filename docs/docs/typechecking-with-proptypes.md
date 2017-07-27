@@ -56,6 +56,9 @@ MyComponent.propTypes = {
 
   // A React element.
   optionalElement: PropTypes.element,
+  
+  // A functional stateless component or class component
+  opetionalElement: PropTypes.func
 
   // You can also declare that a prop is an instance of a class. This uses
   // JS's instanceof operator.
